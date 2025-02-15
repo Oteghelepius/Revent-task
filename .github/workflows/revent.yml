@@ -22,7 +22,7 @@ jobs:
       with:
         context: ./api
         push: true
-        tags: pius20/task-manager:latest
+        tags: pius20/revent-task-manager:latest
 
     - name: Set up kubectl
       uses: azure/setup-kubectl@v3
